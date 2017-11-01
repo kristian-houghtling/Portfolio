@@ -154,7 +154,7 @@ a {
 .under_const {
   font-size: 100px;
   margin-top: 100px;
-  
+
 }
 
 
@@ -193,6 +193,11 @@ a {
 
   .tort_section p {
     font-size: 150%;
+  }
+
+  img {
+    max-width: 95%;
+    max-height: 95%;
   }
 
 }
