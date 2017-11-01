@@ -172,8 +172,8 @@ a {
     margin-top: 0;
   }
   .navbar-wrapper .container, .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0;
+    padding-left: 0;
   }
   .navbar-wrapper .navbar {
     padding-right: 0;
