@@ -1,0 +1,66 @@
+
+
+body {
+  height: 100%;
+  min-height: 100%;
+  background: linear-gradient(red, yellow) fixed;
+}
+
+div {
+  font-size: 105%;
+}
+
+#title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 100px;
+  color: #B6FF00;
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff, 0 0 10px #000000;
+}
+
+[class*=col] {
+  height: 200px;
+}
+
+#scoreBox {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: #FF4500;
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff, 0 0 10px #000000;
+}
+
+#currentScore {
+  font-size: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start
+}
+
+img {
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+  max-width: 100%;
+  height: auto;
+  transition: 0.3s;
+}
+
+.col.effect {
+  color: #B6FF00;
+  text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff, 0 0 10px #000000;
+  animation: neon 0.1s ease-in-out;
+  font-size: 145%;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #B6FF00, 0 0 70px #B6FF00, 0 0 80px #B6FF00, 0 0 100px #B6FF00, 0 0 150px #B6FF00;
+    font-size: 160%;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #B6FF00, 0 0 35px #B6FF00, 0 0 40px #B6FF00, 0 0 50px #B6FF00, 0 0 75px #B6FF00;
+    font-size: 160%;
+  }
+}
